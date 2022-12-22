@@ -1,0 +1,12 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.computer-message{
+    color: green;
+}
+
+.user-message{
+    color: red;
+}
