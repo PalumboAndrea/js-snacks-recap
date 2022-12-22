@@ -26,9 +26,7 @@ createApp({
                     status: 'user'
                 });
             this.userIput = '';
-          
             setTimeout(this.APIMessage, 1000);
-            
         },
         APIMessage(){
             axios.get('https://flynn.boolean.careers/exercises/api/random/sentence')
