@@ -21,10 +21,8 @@ createApp({
             .then( (response) => {
                 if (response.data.response % 2 === 0){
                     this.pari.push(response.data.response)
-                    
                 } else {
                     this.dispari.push(response.data.response)
-                   
                 }
             })
         }

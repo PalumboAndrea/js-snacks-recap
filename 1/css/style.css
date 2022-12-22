@@ -1,8 +1,13 @@
+ul{
+    list-style-type: none;
+}
+
 .pari{
     color: green;
-    
+    width: 30px;
 }
 
 .dispari{
     color: red;
+    width: 30px;
 }
